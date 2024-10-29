@@ -1,16 +1,8 @@
-# GitHub Users in Boston
+# GitHub Bangalore Users and Repositories Data
 
-This repository contains data about GitHub users in Boston with over 100 followers and their repositories.
+- This data was collected using the GitHub API, focusing on users in Bangalore with more than 100 followers.
+- The analysis shows that most popular repositories in Bangalore are built with Python and JavaScript, with open-source licenses preferred.
+- Developers in Bangalore could benefit from contributing to trending repositories with these languages to gain visibility.
 
-## Files
+This project includes data files, `users.csv` and `repositories.csv`, containing user profiles and repository details, respectively. Also included is the code used for data extraction.
 
-1. `users.csv`: Contains information about 602 GitHub users in Delhi with over 100 followers
-2. `repositories.csv`: Contains information about 50221 public repositories from these users
-3. `gitscrap.py`: Python script used to collect this data
-
-## Data Collection
-
-- Data collected using GitHub API
-- Date of collection: 2024-10-29
-- Only included users with 100+ followers
-- Up to 500 most recently pushed repositories per user
