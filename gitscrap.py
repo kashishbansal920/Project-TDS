@@ -182,7 +182,6 @@ def main():
     with open('README.md', 'w') as f:
         f.write(f"""# GitHub Users in Bangalore
 
-This repository contains data about Banglore users in Boston with over 100 followers and their repositories.
 
 ## Files
 
